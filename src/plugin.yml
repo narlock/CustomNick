@@ -1,0 +1,17 @@
+name: CustomNick
+main: com.narlock.customnick.CustomNick
+version: 1.0
+commands:
+  customnick:
+    description: Set your nickname with color
+    usage: /customnick <nick>
+  colornick:
+    description: Set your nick to your username with a color
+    usage: /colornick <color>
+permissions:
+  customnick.colornick:
+    description: Allows use of /colornick command
+    default: op
+  customnick.use:
+    description: Allows use of the /customnick command
+    default: op
